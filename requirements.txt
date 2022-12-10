@@ -1,3 +1,6 @@
+setuptools
+ez_setup
+unroll
 pandas==1.1.5
 gunicorn==20.0.4
 plotly==4.12.0
