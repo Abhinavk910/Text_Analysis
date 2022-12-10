@@ -17,7 +17,6 @@ dash-table==4.11.2
 transformers
 thinc
 spacy
-nltk
 gensim==3.8.3
 sumy
 beautifulsoup4==4.9.1
