@@ -9,19 +9,17 @@ pybase64
 regex
 matplotlib
 numpy==1.20
-dash
-dash-core-components==1.15.0
-dash-html-components==1.1.2
+dash==2.3.0
 dash-bootstrap-components==0.10.6
 dash-table==4.11.2
 transformers
 thinc
 nltk
 spacy
-gensim==3.8.3
+gensim
 sumy
-beautifulsoup4==4.9.1
-requests==2.23.0
+beautifulsoup4
+requests
 click
 Exit
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0-py3-none-any.whl

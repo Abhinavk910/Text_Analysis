@@ -27,11 +27,13 @@ from string import punctuation
 from collections import Counter
 from heapq import nlargest
 from spacy.lang.en.stop_words import STOP_WORDS
+from spacy_download import load_spacy
 
 #my_model = T5ForConditionalGeneration.from_pretrained('assets/text_analysis1/model/pretrained_model/')
 #tokenizer = T5Tokenizer.from_pretrained('assets/text_analysis1/model/tokenizer/')
 
-nlp = spacy.load("en_core_web_sm")
+# nlp = spacy.load("en_core_web_sm")
+nlp = load_spacy("en_core_web_sm")
 df=pd.read_excel('assets/text_analysis1/data/my_dictionary.xlsx')
 df=df.sort_values(by='len')
 
