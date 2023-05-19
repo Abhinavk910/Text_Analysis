@@ -16,7 +16,7 @@ transformers
 thinc
 nltk
 spacy
-gensim
+gensim==3.8.3 
 sumy
 beautifulsoup4
 requests
