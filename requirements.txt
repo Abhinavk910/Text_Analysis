@@ -23,4 +23,4 @@ requests
 click
 Exit
 spacy_download
-Werkzeug==2.1.0
+werkzeug==2.0.1
